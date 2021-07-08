@@ -1,7 +1,7 @@
 body{
     background: #ffffff;
     margin: 2%;
-    font-size: 125%;
+    font-size: 100%;
     color: #000000;
 }
 /* h1{
@@ -27,7 +27,7 @@ header{
     background: -webkit- linear-gradient(#ffffff, #00b7ea 85% );
     font-variant:small-caps;
     color:black;
-    font-size: 200%;
+    font-size: 130%;
 }
 
 footer{
@@ -42,9 +42,9 @@ footer{
 
 nav{
     font-variant: small-caps;
-    font-size: 150%;
+    font-size: 90%;
     font-family: Arial, "Time New Roman", serif;
-    padding: 15px;
+    padding: 10px;
     
 }
 a:hover{
