@@ -1,19 +1,19 @@
 body{
-    background: #8a8686;
+    background: #ffffff;
     margin: 2%;
     font-size: 125%;
-    color: #FFFFFF;
+    color: #000000;
 }
-h1{
+/* h1{
     font-variant: small-caps;
     color: #000000;
     background: #b3b3b3;
-    font-size: 150%;
+    font-size: 500%;
     margin: 4%;
     border-radius: 20px;
     border-color: bisque;
     
-}
+} */
 
 header{
     background: hsl(0, 0%, 40%);
@@ -21,11 +21,15 @@ header{
     padding-bottom: 15px;
     border-style:double;
     border-radius: 40px;
+    background: linear-gradient(#ffffff, #00b7ea 85% );
+    font-variant:small-caps;
+    color:black;
+    font-size: 200%;
 }
 
-header, footer{
+footer{
     background: #666666;
-    background: linear-gradient(#666666 0%, #00b7ea 100%)
+    background: linear-gradient(#666666 0%, #00b7ea 85%)
 }
 
 
@@ -60,13 +64,13 @@ nav a{
 .whole{
     clear:both;
 }
-h2{
-    color:#666666;
-    background: #00b7ea;
-    border-radius: 5px;
-    border-bottom-right-radius: 40px;
-    border-bottom-left-radius: 40px;
+h3{
+    color:#000000;
+    background: linear-gradient(#ffffff, #00b7ea 75% );
+    border-radius: 50px;
     text-align: center;
+    font-style:normal;
+    font-family: Arial, "Time New Roman", serif;
 }
 
 details{
@@ -75,6 +79,7 @@ details{
 
 summary{
     font-style: normal;
+    font-family: Arial, "Time New Roman", serif;
 }
 
 footer{
@@ -86,14 +91,19 @@ footer{
 }
 a{
     text-decoration: none;
-    color: #000000;
+    color: #ff0000;
 
 }
 img{
     /* width: 250px;
     height: 550px; */
-    background: linear-gradient( #ff8d8d, #00b7ea);
-    opacity: 85%;
+    
+    
     border-radius: 10px;
     margin: 4px 4px;
+}
+footer p{
+    color:#ffffff;
+    font-family: Arial, "Time New Roman", serif;
+    padding: 20px;
 }
