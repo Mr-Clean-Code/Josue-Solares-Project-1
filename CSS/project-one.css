@@ -11,7 +11,8 @@ h1{
     font-size: 150%;
     margin: 4%;
     border-radius: 20px;
-        border-color: bisque;
+    border-color: bisque;
+    
 }
 
 header{
@@ -46,6 +47,7 @@ nav a{
     background: #1fd6beb1;
     border-radius: 50px;
     text-decoration: none;
+    text-align: center;
 }
 
 .half{
